@@ -1,5 +1,33 @@
 
 
+form {
+  width: 40%;
+  margin: 1em auto;
+  
+  display: flex;
+  flex-direction: column;
+
+  background-color: lightgray;
+}
+form h2 {
+  margin: .5em 0 0 10%;
+}
+form input, form textarea {
+  width: 80%;
+  margin: 1em auto 0 auto;
+}
+form textarea {
+  min-height: 3.5ch;
+  max-height: 30ch;
+}
+input#submit {
+  width: 30%;
+  background-color: limegreen;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+
 table#json-table {
   width: 80%;
   margin: 0 auto;
