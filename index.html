@@ -19,10 +19,10 @@
 
 <body>
 
-  <form action="index.cgi" method="post">
+  <form action="/usr/lib/cgi-bin/Opdracht2.cgi" method="post">
     <h2>Voer hier wat info in...</h2>
-    <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam">
-    <input type="text" name="Naam" id="Naam" placeholder="Naam">
+    <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" autocomplete="given-name">
+    <input type="text" name="Naam" id="Naam" placeholder="Naam" autocomplete="family-name">
     <textarea name="Bericht" id="Bericht" rows="5" placeholder="Typ hier uw bericht..."></textarea>
     <input type="submit" name="submit" id="submit" value="Submit">
   </form>
