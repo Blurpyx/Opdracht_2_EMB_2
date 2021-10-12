@@ -1,7 +1,7 @@
 fetch("./data.json")
   .then(res => res.json())
   .then(data => {
-    // try {
+    try {
       data.forEach(element => {
         var table = document.querySelector("#json-table");
         var tr = document.createElement("tr");
@@ -17,8 +17,8 @@ fetch("./data.json")
         tr.appendChild(td_bericht);
         table.appendChild(tr);
       });
-    // }
-    // catch (err) {
-    //   console.log(err.message);
-    // }
+    }
+    catch (err) {
+      console.log(err.message);
+    }
   });
