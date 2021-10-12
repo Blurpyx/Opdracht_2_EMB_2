@@ -1,0 +1,27 @@
+
+
+table#json-table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+table#json-table tr#table-header {
+  background-color: grey;
+}
+th:first-child {
+  width: 20ch;
+}
+th:nth-last-child(2) {
+  width: 20ch;
+}
+tr:nth-last-child(2n) {
+  background-color: lightgrey;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+td {
+  overflow: hidden;
+}
