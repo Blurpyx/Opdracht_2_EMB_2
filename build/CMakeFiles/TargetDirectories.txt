@@ -1,0 +1,3 @@
+/home/pi/Documents/Vives/Embedded_2/Labo/20211012/build/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/Vives/Embedded_2/Labo/20211012/build/CMakeFiles/Opdracht2.dir
+/home/pi/Documents/Vives/Embedded_2/Labo/20211012/build/CMakeFiles/edit_cache.dir

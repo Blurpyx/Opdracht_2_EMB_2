@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/pi/Documents/Vives/Embedded_2/Labo/20211012/build",
+  "command": "/bin/gcc-8   -g   -o CMakeFiles/Opdracht2.dir/index-cgi.c.o   -c /home/pi/Documents/Vives/Embedded_2/Labo/20211012/index-cgi.c",
+  "file": "/home/pi/Documents/Vives/Embedded_2/Labo/20211012/index-cgi.c"
+}
+]

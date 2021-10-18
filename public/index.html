@@ -19,7 +19,7 @@
 
 <body>
 
-  <form action="/usr/lib/cgi-bin/Opdracht2.cgi" method="post">
+  <form action="/usr/lib/cgi-bin/Opdracht2-cgi.c" method="post">
     <h2>Voer hier wat info in...</h2>
     <input type="text" name="Voornaam" id="Voornaam" placeholder="Voornaam" autocomplete="given-name">
     <input type="text" name="Naam" id="Naam" placeholder="Naam" autocomplete="family-name">
@@ -28,17 +28,13 @@
   </form>
   
   <table id="json-table">
-    <tr id="table-header">
-      <th>Voornaam</th>
-      <th>Naam</th>
-      <th>Bericht</th>
-    </tr>
-
-    <tr>
-      <td>Tommy</td>
-      <td>Tytgat</td>
-      <td>Dit is een test van de tabel</td>
-    </tr>
+    <tbody id="json-table-body">
+      <tr id="table-header">
+        <th>Voornaam</th>
+        <th>Naam</th>
+        <th>Bericht</th>
+      </tr>
+    </tbody>
   </table>
 
   <script src="index.js"></script>

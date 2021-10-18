@@ -1,0 +1,22 @@
+[
+  {
+    "Voornaam": "Tommy",
+    "Naam": "Tytgat",
+    "Bericht": "Test 1 :)"
+  },
+  {
+    "Voornaam": "John",
+    "Naam": "Cena",
+    "Bericht": "Test 2 :)"
+  },
+  {
+    "Voornaam": "Albert",
+    "Naam": "Einstein",
+    "Bericht": "Test 3 :)"
+  },
+  {
+    "Voornaam": "John",
+    "Naam": "Doe",
+    "Bericht": "Test 4 :)"
+  }
+]

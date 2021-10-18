@@ -39,10 +39,10 @@ table#json-table tr#table-header {
 th:first-child {
   width: 20ch;
 }
-th:nth-last-child(2) {
+th:nth-child(2) {
   width: 20ch;
 }
-tr:nth-last-child(2n) {
+tr:nth-child(2n+1) {
   background-color: lightgrey;
 }
 

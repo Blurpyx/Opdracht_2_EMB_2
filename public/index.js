@@ -4,10 +4,13 @@ fetch("./data.json")
   try {
     data.forEach(element => {
       var table = document.querySelector("#json-table");
+      var tbody = document.querySelector("#json-table-body");
       var tr = document.createElement("tr");
       var td_voornaam = document.createElement("td");
       var td_naam = document.createElement("td");
       var td_bericht = document.createElement("td");
+
+      
 
       td_voornaam.innerHTML = element.Voornaam;
       tr.appendChild(td_voornaam);
@@ -15,7 +18,8 @@ fetch("./data.json")
       tr.appendChild(td_naam);
       td_bericht.innerHTML = element.Bericht;
       tr.appendChild(td_bericht);
-      table.appendChild(tr);
+      tbody.appendChild(tr);
+      table.appendChild(tbody);
     });
   }
   catch (err) {
